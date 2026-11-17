@@ -3,9 +3,11 @@ name: follow-up
 description: >
   Follow up on observation questions and earlier changes using current
   evidence, assess their effects, or resume work from a handoff or prior
-  record. Use for tracking what was left to observe, evaluating an earlier
-  improvement, or preparing and continuing handed-off work; not for task
-  closeout or applying guidance changes alone.
+  record. Use when the user asks where earlier work stands, asks to continue,
+  pick up, or refresh the status of recorded work, including inside a workspace
+  that another skill manages, or asks to track what was left to observe or
+  evaluate an earlier improvement. Not for task closeout or applying guidance
+  changes alone.
 ---
 
 # Follow Up
