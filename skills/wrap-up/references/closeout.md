@@ -62,6 +62,16 @@ An OS temp file may serve as a temporary handoff, but report its path and lack o
 Reference specs, commits, and diffs by path instead of copying them.
 Name any relevant skills for the next session and redact secrets.
 
-When relevant to closeout, look up related open tasks only in a tracker used for this task or in items the user designated.
-Before updating those tasks, check whether existing authorization covers the concrete change.
-Request approval only when it does not.
+## Task tracker
+
+When this task used a task tracker or the user designated one, look up its open tasks that this task touched or that the final state affects.
+Look only in that tracker and those items; without either, skip this step silently and list remaining work in the closeout summary.
+
+Compare each found task with the verified final state and propose one of: complete, record progress, change due date or description, or leave as is.
+State the evidence for each proposal, such as a commit, pull request, or document change; do not propose from the session narrative alone.
+Use the tracker's own skills or tools for the edit when available.
+
+Apply a change directly only when existing authorization covers that concrete change.
+Group the remaining proposals into one approval request.
+Completing or deleting a task always needs confirmation.
+Do not create new tasks unasked; list follow-ups in the summary and ask once whether to register them.
